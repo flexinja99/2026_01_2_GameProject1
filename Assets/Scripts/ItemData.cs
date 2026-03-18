@@ -5,7 +5,7 @@ using UnityEngine;
 public class ItemData
 {
     public int id;
-    public string itemname;
+    public string itemName;
     public string description;
     public string nameEng;
     public string itemTypeString;
@@ -28,7 +28,7 @@ public class ItemData
         }
         else
         {
-            Debug.LogError($"아이템'{itemname}에 유효하지 않는 아이템 타입 : {itemTypeString}");
+            Debug.LogError($"아이템'{itemName}에 유효하지 않는 아이템 타입 : {itemTypeString}");
             itemType = ItemType.Consumable;
         }
     }

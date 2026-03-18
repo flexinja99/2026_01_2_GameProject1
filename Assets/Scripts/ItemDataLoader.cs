@@ -42,7 +42,7 @@ public class ItemDataLoader : MonoBehaviour
 
             foreach(var item in itemList)
             {
-                Debug.Log($"아이템 : {EncodeKorean(item.itemname)},설명:{EncodeKorean(item.description)}");
+                Debug.Log($"아이템 : {EncodeKorean(item.itemName)},설명:{EncodeKorean(item.description)}");
             }
             
 
