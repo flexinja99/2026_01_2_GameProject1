@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Text;
 using Newtonsoft.Json;
-
 using System.Collections.Generic;
 
 
@@ -50,7 +49,7 @@ public class ItemDataLoader : MonoBehaviour
         }
         else
         {
-            Debug.LogError($"Json 파일을 찾을 수 없습니다. : {jasonFileName}");
+            Debug.LogError($"JSON 파일을 찾을 수 없습니다. : {jasonFileName}");
         }
             
         
